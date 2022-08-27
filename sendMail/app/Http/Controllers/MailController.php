@@ -26,14 +26,6 @@ class MailController extends Controller {
 
         echo "Simple mail sent, check your inbox.";
 
-        /*    Mail::send('mail.example',
-            ['msg' => $text],
-            function($message) use ($send_to, $subject) {
-                $message->to(array($send_to))
-                ->subject($subject);
-            }
-        );
-*/
     }
    
 }
